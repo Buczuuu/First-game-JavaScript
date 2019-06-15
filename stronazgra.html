@@ -1,0 +1,42 @@
+<head>
+  <meta charset="utf-8">
+  <title>Gra w tenis Canvas</title>
+
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      background-color: steelblue;
+	  background-image: url(Video-game-background.jpg)
+    }
+
+    .gra{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;
+    }
+    canvas{
+      border: 5px solid #fff;
+      cursor: none;
+    }
+
+    p{
+      padding: 0 0.3em;
+      font-size: 3em;
+      color: blue;
+      text-align: center;
+	  background-color: #FFEC8B;"
+    }
+
+  </style>
+</head>
+<body>
+  <div class="gra">
+    <p id="playerPKT" >0</p>
+    <canvas id="canvas"></canvas>
+    <p id="aiPKT">0</p>
+  </div>
+  <p class="info">Naciśnij lewy przycisk myszy aby zacząć grę!</p>
+  <script src="grascript.js"></script>
+</body>
